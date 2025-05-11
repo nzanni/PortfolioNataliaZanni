@@ -1,3 +1,8 @@
-.navbar-light {
-    color: white;
+.texto-blanco {
+  color: white !important;
+}
+
+body {
+    background-color: aquamarine;
+    color: green;
 }
