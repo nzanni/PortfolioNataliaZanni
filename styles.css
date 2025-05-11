@@ -1,8 +1,24 @@
 .texto-blanco {
-  color: white !important;
+    color: white !important;
 }
 
 body {
-    background-color: aquamarine;
-    color: green;
+    background-color: rgba(214, 102, 120, 0.459);
+    color:white;
+}
+
+.sobreMi {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.fotoNatalia {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 50%;
 }
