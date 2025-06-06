@@ -48,23 +48,29 @@
     </header>
     <section id="sobre-mi">
         <!-- Sobre Mi -->
-        <section >
-            <div class="container-fluid">
-                <div class="container-fluid position-relative"
-                    style="background-image: url('./Images/ImagenFondoSobreMi.png');background-size: cover; background-position: center; height: 500px; opacity: 0.2;">
-                </div>
-
-                <div class="row sobreMi position-absolute top-50 start-50 translate-middle">
-                    <div class="col-md-6 max-width">
-                        <img class="fotoNatalia" src="./Images/Foto 4x4 - Natalia Zanni.jpeg" alt="Foto Natalia Zanni">
+        <section id="sobre-mi" class="position-relative">
+            <!-- Imagen de fondo -->
+            <div class="position-absolute top-0 start-0 w-100 h-100"
+                style="background-image: url('./Images/ImagenFondoSobreMi.png'); background-size: cover; background-position: center; opacity: 0.2; z-index: 0;">
+            </div>
+            <!-- Contenido arriba de la imagen -->
+            <div class="container d-flex align-items-center justify-content-center"
+                style="min-height: 500px; position: relative; z-index: 1;">
+                <div class="row align-items-center w-100">
+                    <!-- Mi foto circular -->
+                    <div class="col-md-6 text-center mb-6 mb-md-0">
+                        <img  src="./Images/Foto 4x4 - Natalia Zanni.jpeg" alt="Foto Natalia Zanni"
+                            class="rounded-circle" style="max-width: 250px">
                     </div>
-                    <div class="col">
-                        <h3 style="margin-bottom: 0px;"> Hola! Soy Natalia Zanni estudiante de la tecnicatura Analista
-                            de Sistemas
+
+                    <!-- Texto Sobre mi -->
+                    <div class="col-md-6 text-center">
+                        <h3 class="fw-bold">Hola! Soy Natalia Zanni, estudiante de la Tecnicatura Analista de Sistemas
                         </h3>
-                        <br>
-                        <a style="color:rgb(255, 255, 255); font-weight: bold; text-decoration: none" href="./CV Natalia Zanni.pdf" target="_blank"><i class="bi bi-file-earmark-person"></i> Ver mi
-                            CV</a>
+                        <a href="./CV Natalia Zanni.pdf" target="_blank"
+                            class="text-white fw-bold text-decoration-none mt-2 d-inline-block">
+                            <i class="bi bi-file-earmark-person"></i> Ver mi CV
+                        </a>
                     </div>
                 </div>
             </div>
@@ -175,7 +181,8 @@
     <footer style="background-color: pink;" class=" text-white text-center p-4 mt-5">
         <div class="container">
             <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
-            <a href="https://www.linkedin.com/in/natalia-zanni/" target="_blank" style="text-decoration: none"><i class="bi bi-linkedin"></i> Buscame en LinkedIn </a></i>
+            <a href="https://www.linkedin.com/in/natalia-zanni/" target="_blank" style="text-decoration: none"><i
+                    class="bi bi-linkedin"></i> Buscame en LinkedIn </a></i>
         </div>
     </footer>
 </body>
